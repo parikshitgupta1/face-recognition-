@@ -9,7 +9,7 @@ while True:
 	ret,frame=cap.read()
 
 	gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
-	if ret==False:
+	if ret==True:
 		continue
 
 
